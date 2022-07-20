@@ -1,3 +1,5 @@
 {
+  "item.god_blocks.npc_spawn_egg": "Npc Spawn Egg",
+  "entity.god_blocks.npc": "Npc",
   "block.god_blocks.godblock": "Godblock"
 }
