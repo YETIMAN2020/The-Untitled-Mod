@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "npc"
+    },
+    {
+      "name": "Godblocktrade",
+      "type": "villagertrade",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godblocktrade"
     }
   ],
   "variable_elements": [],

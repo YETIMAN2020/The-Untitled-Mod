@@ -4,11 +4,11 @@
   "definition": {
     "mobName": "Npc",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Villager",
     "mobModelTexture": "godblockgui.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 1.95,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
