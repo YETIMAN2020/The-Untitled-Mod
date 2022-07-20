@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "god_blocks:block/godblock"
+    }
+  }
+}

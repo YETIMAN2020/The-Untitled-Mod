@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "god_blocks:blocks/godblock",
+    "up": "god_blocks:blocks/godblock",
+    "north": "god_blocks:blocks/godblock",
+    "east": "god_blocks:blocks/godblock",
+    "south": "god_blocks:blocks/godblock",
+    "west": "god_blocks:blocks/godblock",
+    "particle": "god_blocks:blocks/godblock"
+  }
+}
