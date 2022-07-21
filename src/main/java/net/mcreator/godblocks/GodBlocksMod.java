@@ -26,9 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.godblocks.init.GodBlocksModTabs;
 import net.mcreator.godblocks.init.GodBlocksModItems;
-import net.mcreator.godblocks.init.GodBlocksModEntities;
 import net.mcreator.godblocks.init.GodBlocksModBlocks;
 import net.mcreator.godblocks.init.GodBlocksModBlockEntities;
 
@@ -46,11 +44,11 @@ public class GodBlocksMod {
 	private static int messageID = 0;
 
 	public GodBlocksMod() {
-		GodBlocksModTabs.load();
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		GodBlocksModBlocks.REGISTRY.register(bus);
 		GodBlocksModItems.REGISTRY.register(bus);
-		GodBlocksModEntities.REGISTRY.register(bus);
+
 		GodBlocksModBlockEntities.REGISTRY.register(bus);
 
 	}

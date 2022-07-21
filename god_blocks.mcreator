@@ -1,70 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Godblock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godblock"
-    },
-    {
-      "name": "Godblockgui",
-      "type": "gui",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godblockgui"
-    },
-    {
-      "name": "Godblockheal",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godblockheal",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Godblockrecipe",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godblockrecipe"
-    },
-    {
-      "name": "Npc",
-      "type": "livingentity",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "npc"
-    },
-    {
-      "name": "Godblocktrade",
-      "type": "villagertrade",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godblocktrade"
-    },
-    {
-      "name": "TheUntiteldMod",
-      "type": "tab",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_untiteld_mod"
-    },
-    {
       "name": "SolarPanelMK1",
       "type": "block",
       "sortid": 8,
@@ -594,12 +530,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabthe_untiteld_mod": "The Untiteld Mod",
-      "item.god_blocks.npc_spawn_egg": "Npc Spawn Egg",
       "block.god_blocks.coal_generator": "Coal Generator",
       "item.god_blocks.energymeter": "Energymeter",
-      "entity.god_blocks.npc": "Npc",
-      "block.god_blocks.godblock": "Godblock",
       "block.god_blocks.battery_mk_1": "Battery MK 1",
       "block.god_blocks.solar_panel_mk_1": "Solar Panel MK 1"
     }
