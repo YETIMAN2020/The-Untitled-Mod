@@ -1,0 +1,41 @@
+newmtl m_0
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd god_blocks:blocks/batterymk1top
+Ns 100.0
+d 1.0
+newmtl m_1
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd god_blocks:blocks/batterynegative
+Ns 100.0
+d 1.0
+newmtl m_2
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd god_blocks:blocks/batterypositive
+Ns 100.0
+d 1.0
+newmtl m_3
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd god_blocks:blocks/batterytopbase
+Ns 100.0
+d 1.0
+newmtl m_4
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd god_blocks:blocks/tex3
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

@@ -30,6 +30,7 @@ public class GodBlocksModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			SolarPanelMK1Block.registerRenderLayer();
+			BatteryMK1Block.registerRenderLayer();
 		}
 	}
 }

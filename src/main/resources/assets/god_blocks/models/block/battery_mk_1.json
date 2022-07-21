@@ -1,12 +1,14 @@
 {
-  "parent": "block/cube",
+  "parent": "god_blocks:custom/battery_for_mod_",
   "textures": {
-    "down": "god_blocks:blocks/tex3",
-    "up": "god_blocks:blocks/batterymk1top",
-    "north": "god_blocks:blocks/tex3",
-    "east": "god_blocks:blocks/tex3",
-    "south": "god_blocks:blocks/tex3",
-    "west": "god_blocks:blocks/tex3",
-    "particle": "god_blocks:blocks/tex3"
+    "all": "god_blocks:blocks/batterymk1top",
+    "particle": "god_blocks:blocks/batterymk1top",
+    "0": "god_blocks:blocks/batterymk1top",
+    "3": "god_blocks:blocks/batterytopbase",
+    "4": "god_blocks:blocks/tex3",
+    "missing": "god_blocks:blocks/",
+    "8": "god_blocks:blocks/batterycellblank",
+    "9": "god_blocks:blocks/batterynegative",
+    "10": "god_blocks:blocks/batterypositive"
   }
 }

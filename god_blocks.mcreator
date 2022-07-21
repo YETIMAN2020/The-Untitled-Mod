@@ -524,6 +524,14 @@
         ]
       },
       "path": "~/Coal Generator 1"
+    },
+    {
+      "name": "What",
+      "type": "tab",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what"
     }
   ],
   "variable_elements": [],
@@ -532,6 +540,7 @@
     "en_us": {
       "block.god_blocks.coal_generator": "Coal Generator",
       "item.god_blocks.energymeter": "Energymeter",
+      "itemGroup.tabwhat": "What",
       "block.god_blocks.battery_mk_1": "Battery MK 1",
       "block.god_blocks.solar_panel_mk_1": "Solar Panel MK 1"
     }
