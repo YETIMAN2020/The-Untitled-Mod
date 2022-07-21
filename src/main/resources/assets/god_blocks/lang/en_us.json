@@ -1,5 +1,9 @@
 {
+  "itemGroup.tabthe_untiteld_mod": "The Untiteld Mod",
   "item.god_blocks.npc_spawn_egg": "Npc Spawn Egg",
+  "item.god_blocks.energymeter": "Energymeter",
   "entity.god_blocks.npc": "Npc",
-  "block.god_blocks.godblock": "Godblock"
+  "block.god_blocks.godblock": "Godblock",
+  "block.god_blocks.battery_mk_1": "Battery MK 1",
+  "block.god_blocks.solar_panel_mk_1": "Solar Panel MK 1"
 }

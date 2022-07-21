@@ -55,20 +55,153 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "godblocktrade"
+    },
+    {
+      "name": "TheUntiteldMod",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_untiteld_mod"
+    },
+    {
+      "name": "SolarPanelMK1",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_mk_1"
+    },
+    {
+      "name": "SolarPanelMK1UpdateTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_mk_1_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatteryMK1UpdateTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_mk_1_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatteryMK1",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_mk_1"
+    },
+    {
+      "name": "EnergymeterRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energymeter_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Energymeter",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energymeter"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "itemGroup.tabthe_untiteld_mod": "The Untiteld Mod",
       "item.god_blocks.npc_spawn_egg": "Npc Spawn Egg",
+      "item.god_blocks.energymeter": "Energymeter",
       "entity.god_blocks.npc": "Npc",
-      "block.god_blocks.godblock": "Godblock"
+      "block.god_blocks.godblock": "Godblock",
+      "block.god_blocks.battery_mk_1": "Battery MK 1",
+      "block.god_blocks.solar_panel_mk_1": "Solar Panel MK 1"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Solar Panel MK1",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "god_blocks",

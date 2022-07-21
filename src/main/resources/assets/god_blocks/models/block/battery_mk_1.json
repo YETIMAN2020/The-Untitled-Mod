@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "god_blocks:blocks/tex3",
+    "up": "god_blocks:blocks/batterymk1top",
+    "north": "god_blocks:blocks/tex3",
+    "east": "god_blocks:blocks/tex3",
+    "south": "god_blocks:blocks/tex3",
+    "west": "god_blocks:blocks/tex3",
+    "particle": "god_blocks:blocks/tex3"
+  }
+}
