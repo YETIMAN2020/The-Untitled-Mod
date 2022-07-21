@@ -30,7 +30,7 @@ public class BatteryMK1Block extends Block
 
 			EntityBlock {
 	public BatteryMK1Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override

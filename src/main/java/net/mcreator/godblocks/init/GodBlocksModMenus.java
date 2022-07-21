@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.godblocks.world.inventory.GodblockguiMenu;
+import net.mcreator.godblocks.world.inventory.CoalGeneratorGuiMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -22,6 +23,8 @@ public class GodBlocksModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<GodblockguiMenu> GODBLOCKGUI = register("godblockgui",
 			(id, inv, extraData) -> new GodblockguiMenu(id, inv, extraData));
+	public static final MenuType<CoalGeneratorGuiMenu> COAL_GENERATOR_GUI = register("coal_generator_gui",
+			(id, inv, extraData) -> new CoalGeneratorGuiMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

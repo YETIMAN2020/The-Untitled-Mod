@@ -1,0 +1,202 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 149,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_empty.png",
+          "use1Xscale": false,
+          "name": "progress_bar_empty.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR0"
+          },
+          "name": "progress_bar_filled_0.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR1"
+          },
+          "name": "progress_bar_filled_1.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR2"
+          },
+          "name": "progress_bar_filled_2.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR3"
+          },
+          "name": "progress_bar_filled_3.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR4"
+          },
+          "name": "progress_bar_filled_4.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR5"
+          },
+          "name": "progress_bar_filled_5.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR6"
+          },
+          "name": "progress_bar_filled_6.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR7"
+          },
+          "name": "progress_bar_filled_7.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR8"
+          },
+          "name": "progress_bar_filled_8.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "COALGENERATORBAR9"
+          },
+          "name": "progress_bar_filled_9.png",
+          "x": 202,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coal Generator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Coal Generator",
+          "x": 138,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventory ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inventory ",
+          "x": 138,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 32,
+      "sy": 18,
+      "ox": 18,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

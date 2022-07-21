@@ -2,12 +2,12 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "tex3",
-    "textureTop": "batterymk1top",
-    "textureLeft": "tex3",
-    "textureFront": "tex3",
-    "textureRight": "tex3",
-    "textureBack": "tex3",
+    "texture": "ironblock",
+    "textureTop": "ironblock",
+    "textureLeft": "ironblock",
+    "textureFront": "coalgenerator",
+    "textureRight": "ironblock",
+    "textureBack": "ironblock",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Battery MK 1",
+    "name": "Coal Generator",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -104,7 +104,7 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -113,16 +113,22 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "hasEnergyStorage": true,
+    "hasEnergyStorage": false,
     "energyInitial": 0,
-    "energyCapacity": 100000,
+    "energyCapacity": 400000,
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Coalgeneratorrightclicked"
+    },
+    "onBlockAdded": {
+      "name": "Coalgeneratorblockadded"
+    },
     "onTickUpdate": {
-      "name": "BatteryMK1UpdateTick"
+      "name": "Coalgeneratorupdatetick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.godblocks.block.SolarPanelMK1Block;
 import net.mcreator.godblocks.block.GodblockBlock;
+import net.mcreator.godblocks.block.CoalGeneratorBlock;
 import net.mcreator.godblocks.block.BatteryMK1Block;
 import net.mcreator.godblocks.GodBlocksMod;
 
@@ -24,6 +25,7 @@ public class GodBlocksModBlocks {
 	public static final RegistryObject<Block> GODBLOCK = REGISTRY.register("godblock", () -> new GodblockBlock());
 	public static final RegistryObject<Block> SOLAR_PANEL_MK_1 = REGISTRY.register("solar_panel_mk_1", () -> new SolarPanelMK1Block());
 	public static final RegistryObject<Block> BATTERY_MK_1 = REGISTRY.register("battery_mk_1", () -> new BatteryMK1Block());
+	public static final RegistryObject<Block> COAL_GENERATOR = REGISTRY.register("coal_generator", () -> new CoalGeneratorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

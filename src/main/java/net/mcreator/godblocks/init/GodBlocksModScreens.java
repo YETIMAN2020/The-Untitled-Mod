@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.godblocks.client.gui.GodblockguiScreen;
+import net.mcreator.godblocks.client.gui.CoalGeneratorGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class GodBlocksModScreens {
@@ -19,6 +20,7 @@ public class GodBlocksModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(GodBlocksModMenus.GODBLOCKGUI, GodblockguiScreen::new);
+			MenuScreens.register(GodBlocksModMenus.COAL_GENERATOR_GUI, CoalGeneratorGuiScreen::new);
 		});
 	}
 }

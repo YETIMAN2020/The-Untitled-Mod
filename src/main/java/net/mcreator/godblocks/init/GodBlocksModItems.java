@@ -25,6 +25,7 @@ public class GodBlocksModItems {
 	public static final RegistryObject<Item> SOLAR_PANEL_MK_1 = block(GodBlocksModBlocks.SOLAR_PANEL_MK_1, GodBlocksModTabs.TAB_THE_UNTITELD_MOD);
 	public static final RegistryObject<Item> BATTERY_MK_1 = block(GodBlocksModBlocks.BATTERY_MK_1, GodBlocksModTabs.TAB_THE_UNTITELD_MOD);
 	public static final RegistryObject<Item> ENERGYMETER = REGISTRY.register("energymeter", () -> new EnergymeterItem());
+	public static final RegistryObject<Item> COAL_GENERATOR = block(GodBlocksModBlocks.COAL_GENERATOR, GodBlocksModTabs.TAB_THE_UNTITELD_MOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
