@@ -3,7 +3,7 @@ package net.mcreator.godblocks.procedures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -13,10 +13,10 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class GodblockhealProcedure {
 	@SubscribeEvent
-	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-		if (event.getHand() != event.getPlayer().getUsedItemHand())
-			return;
-		execute(event, event.getPlayer());
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		if (event.phase == TickEvent.Phase.END) {
+			execute(event, event.player);
+		}
 	}
 
 	public static void execute(Entity entity) {
@@ -27,6 +27,6 @@ public class GodblockhealProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.setHealth(9);
+			_entity.setHealth(10);
 	}
 }

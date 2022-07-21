@@ -5,7 +5,7 @@
     "texture": "godblock",
     "textureTop": "godblock",
     "textureLeft": "godblock",
-    "textureFront": "godblock",
+    "textureFront": "bob",
     "textureRight": "godblock",
     "textureBack": "godblock",
     "renderType": 10,
