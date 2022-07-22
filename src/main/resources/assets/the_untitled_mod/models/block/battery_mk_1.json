@@ -1,0 +1,12 @@
+{
+  "parent": "the_untitled_mod:custom/battery_for_mod",
+  "textures": {
+    "all": "the_untitled_mod:blocks/batterymk1top",
+    "particle": "the_untitled_mod:blocks/batterymk1top",
+    "0": "the_untitled_mod:blocks/batterymk1top",
+    "1": "the_untitled_mod:blocks/tex3",
+    "2": "the_untitled_mod:blocks/batterytopnegative",
+    "3": "the_untitled_mod:blocks/batterytoppositive",
+    "missing": "the_untitled_mod:blocks/"
+  }
+}

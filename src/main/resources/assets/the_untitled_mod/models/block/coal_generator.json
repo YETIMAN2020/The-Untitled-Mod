@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_untitled_mod:blocks/ironblock",
+    "up": "the_untitled_mod:blocks/ironblock",
+    "north": "the_untitled_mod:blocks/coalgenerator",
+    "east": "the_untitled_mod:blocks/ironblock",
+    "south": "the_untitled_mod:blocks/ironblock",
+    "west": "the_untitled_mod:blocks/ironblock",
+    "particle": "the_untitled_mod:blocks/ironblock"
+  }
+}

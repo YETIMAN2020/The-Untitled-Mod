@@ -2,15 +2,15 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "batterymk1top",
-    "textureTop": "batterymk1top",
-    "textureLeft": "tex3",
-    "textureFront": "tex3",
-    "textureRight": "tex3",
-    "textureBack": "tex3",
+    "texture": "cableblocknew",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 2,
-    "customModelName": "battery_for_mod:default",
-    "rotationMode": 1,
+    "customModelName": "cable-block:default",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -23,16 +23,16 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mx": 5.0,
+        "my": 4.0,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 10.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],
-    "name": "Battery MK 1",
+    "name": "Cable Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -104,7 +104,7 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -113,17 +113,14 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "hasEnergyStorage": true,
+    "hasEnergyStorage": false,
     "energyInitial": 0,
-    "energyCapacity": 100000,
+    "energyCapacity": 400000,
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "BatteryMK1UpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

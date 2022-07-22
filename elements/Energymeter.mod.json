@@ -8,7 +8,7 @@
     "name": "Energymeter",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:What"
     },
     "stackSize": 1,
     "enchantability": 0,

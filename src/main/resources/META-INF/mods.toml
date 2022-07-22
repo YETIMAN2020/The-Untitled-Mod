@@ -1,16 +1,16 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
-modId="god_blocks"
+modId="the_untitled_mod"
 version="1.0.0"
-displayName="god blocks"
+displayName="The Untitled Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="joshu, MCreator"
+authors="YETIMAN2020"
 
-[[dependencies.god_blocks]]
+[[dependencies.the_untitled_mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"

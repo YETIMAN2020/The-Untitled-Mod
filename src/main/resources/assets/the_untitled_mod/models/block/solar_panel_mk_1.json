@@ -1,0 +1,10 @@
+{
+  "parent": "the_untitled_mod:custom/model",
+  "textures": {
+    "all": "the_untitled_mod:blocks/tex6",
+    "particle": "the_untitled_mod:blocks/tex6",
+    "3": "the_untitled_mod:blocks/tex3",
+    "4": "the_untitled_mod:blocks/tex",
+    "5": "the_untitled_mod:blocks/tex6"
+  }
+}

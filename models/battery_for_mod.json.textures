@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "batterymk1top",
+        "1": "tex3",
+        "2": "batterytopnegative",
+        "3": "batterytoppositive",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

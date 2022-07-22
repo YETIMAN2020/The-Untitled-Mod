@@ -1,0 +1,8 @@
+{
+  "parent": "the_untitled_mod:custom/cable-block",
+  "textures": {
+    "all": "the_untitled_mod:blocks/cableblocknew",
+    "particle": "the_untitled_mod:blocks/cableblocknew",
+    "0": "the_untitled_mod:blocks/cableblocknew"
+  }
+}
